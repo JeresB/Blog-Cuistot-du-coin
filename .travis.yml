@@ -9,7 +9,8 @@ env:
 branches:
   only:
     - master                 # for Github Project Pages replace with "master"
-
+before_install:
+  - chmod +x binaries/hugo
 install:
   - rm -rf public || exit 0  # cleanup previous run
 script:

@@ -9,7 +9,7 @@ install:
   - rm -rf public || exit 0   # cleanup previous run
 
 script:
-  - binaries/hugo             # Generate
+  - binaries/hugo --theme=hugo_theme_robust --buildDrafts   # Generate
 
 deploy:
   provider: s3

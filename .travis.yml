@@ -18,10 +18,3 @@ install:
 
 script:
   - binaries/hugo            # Generate
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: ajlx5/yeIjvAjCNDfolqh94ppsdg/Qo+pPYx5yIV2VDw0q4wMxAP78bWAvnDEVtGpWRz7yx1B/faZywAZMDCJ5zq4j8igCVZFVSiX6MR3YAm61jx/W9R5DPUAtde0eLi+gfGpTJ1wEnRf5QiKY4bbqt+PXOnxnzOtWaSptXq/X2Uh6DHxdQrkF2dBKRUJxWebRhotkWZacS47d9LL8QeUKjJ2cFLaQ300sFWG461UKkOykRysNLtc9jemjUdyink/rwbzMfnD5I8MwlSPvvJdbdZD320nZCGPstJzi1gDQqgOV5ID2XTLvWn3mz3/U/9ynJ0n7xai+8UQDtIm9MfEo6JCHh9CRcQ9zgAjmv5WdgusVG1/3YRaAPdoHTujPrQC+goRFW4Wnu4pENrjrGn1LzajpBCtZGMa1up75taYcM6D3SjTTXSHicmu1H6NwFbQy0RsDVNcUzEpuTPkCcu3d5TX0McAjMOzkIbiKv77W6icoqylxKrjUvWYxDrp/XIpUTq2CTJEDL/UKSNKqXCLge9wbPvP+zH6oZBPHqZOyuaIdtncIk0AFDp8A0nQiFDeR2p4qsN0N+Of0NgPeF0YP1Z84t+jln8jKXeOrhyicUlcbHtOiT+TgaraiAEUU5pil5oZtQtHNkVcBzp3UDeJhYNeWjlq1SYx6CLQh2WNIY= # Set in travis-ci.org dashboard
-  on:
-    branch: master

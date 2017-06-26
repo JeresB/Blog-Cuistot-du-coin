@@ -1,6 +1,6 @@
 env:
   global:
-    - secure: "i3+7W1xcMB3EpAN9IGy1h2bru6quK8uZxsnS26DNv5NEilLo990v8jMJ/mNNWkwdHHNBL/l93zogCyoWKMPAfCfT75KDKX94EHEL+cl3Qrh7LoYPZldhcxWzj13YKPrUKr3XK/P2dy/5++G7jW9xwj4DkOft2xDHisSdh3olVkhL1armhKhhm/WS/BjotHWkM0gsMJk+xq3hxk5kXQqFMoGrgu9K8B4tVttYKmv25lH/bRtJ4hjrgiE/Vmh1GoBuBo/2OGGg6q3hAf6F1kvhwTf84KctS2au8/kYr1+uWitQeXBVMBGnURzy6k6DqbybSsAWAh1QsTxoCSyywMnZvA9aFrBFaKNDoXtw0hWhFyyLiwt82GBsHKgn1Grgj4KPdPmIRw6ek/5gPnKFLTdu11NAFhTBgvosj1kGJ9Z8/UsLu7u8mzyBzRHaolN7+NUW1V5m9wwqpjwxV9A27/ZOe8rBYfWbgZpwcaF3RfU8bdZCgr/M/5vOr82U/5ni3QNRArcmrlqx2wEu3EWDZ8C7fu9EVkVIdbiav6MJlp5AyCruk5LB/GHIHxS0IgnOhsqXWjJ6wdu/oJG/eeQeAxTAaZSOd73yA/7P1XJf932LUZHUx0ugnr9Z29oGtgGOTYVm95sFlW6XAlqKI20QG43nb+4jeXYzpo03IQwHaPTO0Ac="                               # replace this with the travis encryption output!
+    - secure: "a+UHgl93EPi58vbF3GeNIKU3e0vlrxZ2brMs1kilEGXhb6q/MdEvYDyx0oASxXuw+g1cqcsn+A2ClJRF8tIuiesHltBh9rJ4ZFKGbVLaPdIq4FTbkQ9YL8nmmR76jjHNPWbEd9B3IpfyLDO0D22c/0OJu1QOi6NLz+r/XfsIQp0PNdh7hrP9Rklfj1EOlaL4mN+jC+OEi/fBuDSagbyCM1PV0otaPC6A+fWYb7PaJH8sKZKnD1QnwZ5Z8S00DdmPS7aY9eYB28tseOifCzesGlL1TsajZK9eJvge3CB7bc+DklT0R0cmAAHhqm3ROAIeI09VfbD0oSDphvLR+SMMpRQD549qfImlyqUFMCmPsQ+DazC94kW9C3gPqh+pUhWMXr1dwY4YcVUZFD/msgI6YetVRYDlcmywYBc4Zq1kpZ+5XdzzOz2AoOch1QqzeeCNMvhzrLKygfJDHreAgez89Ql17v4C1K/71RXWXECX3VHHB0GmRxGQzLgL7Gt+VDUgLvBGsee6eojeBURnB02flSiu35D+f2Lb7Bae18a0FP8rwuFkTGHq2FaihIPfA9hnekt+4/yd3i7kSawsze4Kp5HUZ2OYcdsXnlMgmbhCJsHrL/1T9j393F5gbvMYFZaDWfUxLzyUGTbX949wFv9cwtWOxEJWI0lhysT5KgvOLrE="                               # replace this with the travis encryption output!
     - GIT_DEPLOY_DIR=public                       # default output dir of Hugo (change it, when you use configured it!)
     - GIT_DEPLOY_BRANCH=master                    # target branch, replace by "gh-pages" for Github Project Pages
     - GIT_DEPLOY_USERNAME="JeresB"                # dummy name
@@ -22,6 +22,6 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: QNtPewXYh7HqZJ3iFfvr # Set in travis-ci.org dashboard
+  github_token: ajlx5/yeIjvAjCNDfolqh94ppsdg/Qo+pPYx5yIV2VDw0q4wMxAP78bWAvnDEVtGpWRz7yx1B/faZywAZMDCJ5zq4j8igCVZFVSiX6MR3YAm61jx/W9R5DPUAtde0eLi+gfGpTJ1wEnRf5QiKY4bbqt+PXOnxnzOtWaSptXq/X2Uh6DHxdQrkF2dBKRUJxWebRhotkWZacS47d9LL8QeUKjJ2cFLaQ300sFWG461UKkOykRysNLtc9jemjUdyink/rwbzMfnD5I8MwlSPvvJdbdZD320nZCGPstJzi1gDQqgOV5ID2XTLvWn3mz3/U/9ynJ0n7xai+8UQDtIm9MfEo6JCHh9CRcQ9zgAjmv5WdgusVG1/3YRaAPdoHTujPrQC+goRFW4Wnu4pENrjrGn1LzajpBCtZGMa1up75taYcM6D3SjTTXSHicmu1H6NwFbQy0RsDVNcUzEpuTPkCcu3d5TX0McAjMOzkIbiKv77W6icoqylxKrjUvWYxDrp/XIpUTq2CTJEDL/UKSNKqXCLge9wbPvP+zH6oZBPHqZOyuaIdtncIk0AFDp8A0nQiFDeR2p4qsN0N+Of0NgPeF0YP1Z84t+jln8jKXeOrhyicUlcbHtOiT+TgaraiAEUU5pil5oZtQtHNkVcBzp3UDeJhYNeWjlq1SYx6CLQh2WNIY= # Set in travis-ci.org dashboard
   on:
     branch: master

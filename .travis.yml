@@ -1,3 +1,7 @@
+language: go
+go:
+  - 1.7.4
+
 env:
   global:
     - secure: "a+UHgl93EPi58vbF3GeNIKU3e0vlrxZ2brMs1kilEGXhb6q/MdEvYDyx0oASxXuw+g1cqcsn+A2ClJRF8tIuiesHltBh9rJ4ZFKGbVLaPdIq4FTbkQ9YL8nmmR76jjHNPWbEd9B3IpfyLDO0D22c/0OJu1QOi6NLz+r/XfsIQp0PNdh7hrP9Rklfj1EOlaL4mN+jC+OEi/fBuDSagbyCM1PV0otaPC6A+fWYb7PaJH8sKZKnD1QnwZ5Z8S00DdmPS7aY9eYB28tseOifCzesGlL1TsajZK9eJvge3CB7bc+DklT0R0cmAAHhqm3ROAIeI09VfbD0oSDphvLR+SMMpRQD549qfImlyqUFMCmPsQ+DazC94kW9C3gPqh+pUhWMXr1dwY4YcVUZFD/msgI6YetVRYDlcmywYBc4Zq1kpZ+5XdzzOz2AoOch1QqzeeCNMvhzrLKygfJDHreAgez89Ql17v4C1K/71RXWXECX3VHHB0GmRxGQzLgL7Gt+VDUgLvBGsee6eojeBURnB02flSiu35D+f2Lb7Bae18a0FP8rwuFkTGHq2FaihIPfA9hnekt+4/yd3i7kSawsze4Kp5HUZ2OYcdsXnlMgmbhCJsHrL/1T9j393F5gbvMYFZaDWfUxLzyUGTbX949wFv9cwtWOxEJWI0lhysT5KgvOLrE="                               # replace this with the travis encryption output!
@@ -8,13 +12,13 @@ env:
 
 branches:
   only:
-    - master
-                     # for Github Project Pages replace with "master"
+    - master                  # for Github Project Pages replace with "master"
+    
 before_install:
   - chmod +x binaries/hugo
 
 install:
-  - rm -rf public || exit 0  # cleanup previous run
+  - rm -rf public || exit 0   # cleanup previous run
 
 script:
-  - binaries/hugo            # Generate
+  - binaries/hugo             # Generate

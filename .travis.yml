@@ -15,8 +15,8 @@ deploy:
   on:
     branch: master
   provider: s3
-  access_key_id:
-  secret_access_key: AKIAIBCODGMPMQFXYJEQ
+  access_key_id: AKIAIBCODGMPMQFXYJEQ
+  secret_access_key:
     secure: "Q+p3XuxxOiWPZ0sJqKEXwFGvhVBO9pLzvCbbAXdw79K1V72CgJxg8P7qkRTjWreTF6FLRco/4l9y9ySlxo4ov4vAqEIpiLap086fNGtpwQM5g9x+h4AGA7mNBew+9e/bqZ0B5VHva32+DUpeAfQoaPQiJJiMdi6BnD+SBjwe/OIY6sDAT9NH+noJoWFS6cKwIQ5nZqqhhbgCes9N3BpnKx/RtCryMbmqorOITmErzNWW3Xsx4rQgzLINO6IndJw5jZuZ8aurKzG5mo2ophGV49mfOO0d0vJI+Tc//VvzV8SerrcUmhWORInseHnmoQTmdM286w8pBK2XbDthWqqaVOQysmPxeE/IbueTqYpql0pGfkn4eje42Y033mZz1Hjc4TMWmM7G2aySDnmIz9WxEjUb5pa+V22e1i2MRhUHHHLUS2Sh6wbW+JnwQ8Q1INH38a/TsIezU0sI8j08+0vy7UKDyiunGiPgek5tndsvIRz+khJAX2Z5q8rmcK3g640Sb6N7/bqW5eitE2tryQl+fob28TiUjwRKfmTSEmZrQLYAdguUXUdD3kHAwW5LZbNrkSIWdg65iwvO5Y6w5xRC9EL1yl2ydMVXPtjPiXZqBDQD+e5sc8mtQyHDSQ/hxkMB7bPxj3HD6Q0Waf15HoOgGzvsg9FQ68l8p8V4X4L3Qak="
   bucket: blogcuistotducin
   region: eu-west-2

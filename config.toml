@@ -1,4 +1,4 @@
-baseURL = "https://s3.eu-west-2.amazonaws.com/blogcuistotducoin/public/"
+baseURL = "http://d1tqitmo13if1b.cloudfront.net/"
 languageCode = "en-us"
 title = "Hugo Example Blog"
 canonifyURLs = true

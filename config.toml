@@ -1,4 +1,4 @@
 baseURL = "https://s3.eu-west-2.amazonaws.com/blogcuistotducoin/public/"
 languageCode = "en-us"
 title = "Hugo Example Blog"
-uglyurls = true
+canonifyURLs = true

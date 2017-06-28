@@ -1,7 +1,100 @@
-body {
-	margin-top: 75px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+.main {
+	margin-top: 30px;
 }
 
 footer {
 	margin: 50px 0;
+}
+
+.navbar {
+	min-height: 56px;
+}
+
+.fixed-top-2 {
+	position: fixed;
+	top: 30;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+.card {
+	margin-bottom: 10px;
+}
+
+.hover {
+	display: none;
+}
+
+.card-img-top:hover + .hover {
+	display: block;
+}
+
+.contenu {
+	position: relative;
+	width: 100%;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.contenu:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	or: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.newsletter {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+	background-position: 50% 50%;
+	background-image: url('../images/pommes.jpg');
+}
+
+.block-newsletter {
+	background-color: #2ABA66;
+	border-radius: 4px;
+	margin: 2%;
+	padding: 2%;
+}
+
+.title-newsletter {
+	padding-top: 2%;
+}
+
+.form-newsletter {
+	width: 80%;
+}
+
+.input-newsletter {
+	width: 100%;
+	background-color: #FFF;
+	border: 2px solid transparent;
+	box-shadow: 0 0 1px #3d464d;
+	padding: .5em 1em;
+	transition: border 0.2s, box-shadow 0.2s;
 }

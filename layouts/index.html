@@ -1,21 +1,15 @@
 {{ partial "header.html" . }}
 <body>
 {{ partial "navbar.html" . }}
-<div class="container">
+
+<div class="container main">
     <div class="row">
-        <div class="col-md-9">
-        {{ $paginator := .Paginate .Data.Pages }}
-        {{ range $paginator.Pages }}
+        {{ range first 6 .Data.Pages }}
           {{ .Render "summary" }}
         {{ end }}
-        <div class="col-md-12">{{ partial "pagination.html" . }}</div>
-        </div>
-
-        <!-- Sidebar -->
-        <div class="col-md-3">
-        {{ partial "menu.html" . }}
-        </div>
     </div>
-{{ partial "footer.copyright.html" . }}
+
 </div>
+{{ partial "newsletter.html" . }}
+{{ partial "footer.copyright.html" . }}
 {{ partial "footer.html" . }}

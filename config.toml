@@ -2,3 +2,4 @@ baseURL = "http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/public/"
 languageCode = "en-us"
 title = "Cuistot du coin"
 canonifyURLs = true
+Paginate = 8

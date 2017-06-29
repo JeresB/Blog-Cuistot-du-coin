@@ -4,26 +4,34 @@
 <div class="container main">
   <div class="row">
     <div class="col-md-9">
-      <div class="well well-sm">
-        <h3>{{ .Title }}<br> <small>{{ .Description }}</small></h3>
-        <hr>
-        {{ .Content }}
+      <div class="card">
+        <img class="card-img-top" src="../../images/fond1.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">{{ .Title }}</h4>
+          <p class="card-text">{{ .Description }}</p>
+          <hr>
+          <p class="card-text">{{ .Content }}</p>
+        </div>
+        <div class="card-footer text-muted">
+          Publié le {{ .Date.Format "January 2, 2006" }}
+        </div>
       </div>
     </div>
 
     <!-- Sidebar -->
     <div class="col-md-3">
-      <div class="well well-sm"> <!-- Post-specific stats -->
-        <h4>{{ .Date.Format "January 2, 2006" }}<br>
-        <small>{{ .WordCount }} words</small></h4>
-        <hr>
-        <strong>Categories</strong>
-        <ul class="list-unstyled">
-          {{ range .Params.categories }}
-            <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
-          {{ end }}
-        </ul>
-        <hr>
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">{{ .Date.Format "January 2, 2006" }}</h4>
+          <p class="card-text">{{ .WordCount }} mots.</p>
+          <hr>
+          <p class="card-title">Categories :</p>
+          <p class="card-text">
+            {{ range .Params.categories }}
+              <a class="label" href="/categories/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+          </p>
+        </div>
       </div>
       {{ partial "menu.html" . }}
     </div>

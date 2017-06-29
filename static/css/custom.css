@@ -64,7 +64,7 @@ hr {
 }
 
 .block-newsletter {
-	background-color: #2ABA66;
+	background-color: #2aba66;
 	border-radius: 4px;
 	margin: 2%;
 	padding: 2%;
@@ -80,7 +80,7 @@ hr {
 
 .input-newsletter {
 	width: 100%;
-	background-color: #FFF;
+	background-color: #fff;
 	border: 2px solid transparent;
 	box-shadow: 0 0 1px #3d464d;
 	padding: .5em 1em;
@@ -100,14 +100,14 @@ hr {
 }
 
 .green {
-	color: #2ABA66;
+	color: #2aba66;
 }
 
 .social {
 	margin: 10px;
 }
 .social:hover {
-	color: #44A909;
+	color: #44a909;
 }
 
 .link-btn {
@@ -123,12 +123,12 @@ hr {
 	outline: 0;
 	font-weight: bold;
 	font-size: 16px;
-	border: 2px solid #2ABA66;
-	color: #2ABA66;
+	border: 2px solid #2aba66;
+	color: #2aba66;
 }
 
 .link-btn:hover {
-	color: #2ABA66;
+	color: #2aba66;
 	text-decoration: none;
 	animation: 1s greenBoxShadow ease-out;
 }
@@ -141,11 +141,11 @@ blockquote {
 }
 
 .blockquote-green {
-	border-left: 4px solid #2ABA66;
+	border-left: 4px solid #2aba66;
 }
 
 .blockquote-green:hover {
-	border-left: 10px solid #2ABA66;
+	border-left: 10px solid #2aba66;
 }
 
 .blockquote-red {
@@ -178,4 +178,21 @@ blockquote {
 
 .blockquote-purple:hover {
 	border-left: 10px solid purple;
+}
+
+.label {
+	background: #25e62b;
+	background-image: linear-gradient(to bottom, #25e62b, #17a310);
+	border-radius: 2px;
+	color: #fff;
+	font-size: 12px;
+	padding: 4px 6px 4px 6px;
+	text-decoration: none;
+}
+
+.label:hover {
+	background: #58b006;
+	background-image: linear-gradient(to bottom, #58b006, #1a7a01);
+	color: #fff;
+	text-decoration: none;
 }

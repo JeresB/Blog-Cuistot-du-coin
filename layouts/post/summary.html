@@ -1,17 +1,18 @@
-<div class="col-md-4">
-  <div class="card">
-    <div class="contenu">
-      <img src="images/crepe.jpg" alt="Avatar" class="image card-img-top">
-      <div class="overlay">
-        <div class="text">
-          <a href="{{ .Permalink }}" class="btn btn-success link-more">En savoir plus <span class="fa fa-angle-double-right"></span></a>
-        </div>
+<div class="col-md-4 summary">
+  <a href="{{ .Permalink }}">
+    <div class="card post">
+
+        <img src="images/crepe.jpg" alt="Avatar" class="image card-img-top">
+
+
+      <div class="card-block">
+        <p class="card-title">{{ .Title }}</p>
+
+        <p class="card-text">{{ .Description }}</p>
+      </div>
+      <div class="card-footer text-muted">
+        Publié le {{ .Date.Format "2 January 2006" }}
       </div>
     </div>
-    <div class="card-block">
-      <a class="card-title" href="{{ .Permalink }}">{{ .Title }}</a>
-      <p class="card-text">Publiée le {{ .Date.Format "Jan 2, 2006" }}</p>
-      <p class="card-text">{{ .Description }}</p>
-    </div>
-  </div>
+  </a>
 </div>

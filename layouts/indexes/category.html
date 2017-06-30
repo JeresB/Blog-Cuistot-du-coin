@@ -7,13 +7,13 @@
       <h4 class="text-center">Articles liés à la categorie <code>{{ .Title | lower }}</code></h4>
       <hr>
         {{ range .Data.Pages }}
-          {{ .Render "div" }}
+          {{ .Render "blog-card" }}
         {{ end}}
     </div>
 
     <!-- Sidebar -->
     <div class="col-md-3">
-      {{ partial "menu.html" . }}
+      {{ partial "facebook.html" . }}
     </div>
   </div>
 {{ partial "footer.copyright.html" . }}

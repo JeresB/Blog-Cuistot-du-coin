@@ -1,20 +1,20 @@
 {{ partial "header.html" . }}
 <body>
 {{ partial "navbar.html" . }}
-<div class="container">
+<div class="container main">
     <div class="row">
         <div class="col-md-9 well">
           <h2>Blog Post Archive</h2>
           {{ $paginator := .Paginate .Data.Pages }}
           {{ range $paginator.Pages }}
-              {{ .Render "div" }}
+              {{ .Render "blog-card2" }}
           {{ end }}
           <div class="col-md-12">{{ partial "pagination.html" . }}</div>
         </div>
 
         <!-- Sidebar -->
         <div class="col-md-3">
-        {{ partial "menu.html" . }}
+        {{ partial "facebook.html" . }}
         </div>
     </div>
     <p>post</p>

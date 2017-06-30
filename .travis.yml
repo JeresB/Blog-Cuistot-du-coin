@@ -8,11 +8,11 @@ before_install:
 
 install:
   - rm -rf public || exit 0   # cleanup previous run
-  - sudo apt-get install tree
+  # - sudo apt-get install tree
 
 script:
   - binaries/hugo -v   # Generate
-  - tree -a
+  # - tree -a
 
 deploy:
   provider: s3

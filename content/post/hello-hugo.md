@@ -5,10 +5,6 @@ date: "2014-09-01"
 categories:
   - "example"
   - "hello"
-tags:
-  - "example"
-  - "hugo"
-  - "blog"
 ---
 
 Hello from Hugo! If you're reading this in your browser, good job! The file `content/post/hello-hugo.md` has been

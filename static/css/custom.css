@@ -10,6 +10,18 @@ hr {
 	width: 100%;
 }
 
+.relative {
+	position: relative;
+}
+
+.text-pagination {
+	font-size: 20px;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-40%);
+	left: 50%;
+}
+
 .navbar {
 	min-height: 56px;
 }
@@ -144,6 +156,23 @@ hr {
 	color: #2aba66;
 	text-decoration: none;
 	animation: 1s greenBoxShadow ease-out;
+}
+
+.span-btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0.25em 2em;
+	text-decoration: none;
+	border-radius: 4px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-touch-callout: none;
+	user-select: none;
+	cursor: pointer;
+	outline: 0;
+	font-weight: bold;
+	font-size: 16px;
+	border: 2px solid #f05f40;
+	color: #f05f40;
 }
 
 blockquote {
@@ -406,7 +435,7 @@ blockquote:hover {
 }
 .blog-footer li {
 	margin-top: 4px;
-	color: #999999;
+	color: #2aba66;
 }
 
 .comments {
@@ -414,7 +443,7 @@ blockquote:hover {
 }
 
 .published-date {
-	border: 1px solid #999999;
+	border: 1px solid #2aba66;
 	border-radius: 3px;
 	padding: 0 .5rem;
 }

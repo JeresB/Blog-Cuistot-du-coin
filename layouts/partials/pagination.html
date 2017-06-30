@@ -1,19 +1,28 @@
 <nav>
-{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-<ul class="pager">
-  {{ if .Paginator.HasPrev }}
-	  <li class="previous pull-left"><a href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}"><span aria-hidden="true">&larr;</span> Nouveau {{ .Site.Data.l10n.pagination.newer }}</a></li>
-  {{ else }}
-    <li class="previous disabled pull-left"><a href="#"><span aria-hidden="true">&larr;</span> Nouveau</a></li>
-  {{ end }}
+  <div class="row">
+    <div class="col-md-3 col-xs-3">
+      <p class="text-center">
+      {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+        {{ if .Paginator.HasPrev }}
+          <a class="link-btn" href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}"><span aria-hidden="true">&larr;</span> Nouveau {{ .Site.Data.l10n.pagination.newer }}</a>
+        {{ else }}
+          <span class="span-btn disabled" aria-hidden="true">&larr; Nouveau</span>
+        {{ end }}
+      </p>
+    </div>
 
-  <li class="counter disabled"><a href="#" class="text-center">{{ .Site.Data.l10n.pagination.page }} {{ .Paginator.PageNumber}} {{ .Site.Data.l10n.pagination.of }} {{.Paginator.TotalPages}}</a></li>
-
-	{{ if .Paginator.HasNext }}
-  <li class="next pull-right"><a href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">{{ .Site.Data.l10n.pagination.older }} Ancien <span aria-hidden="true">&rarr;</span></a></li>
-  {{ else }}
-  <li class="next disabled pull-right"><a href="#">Ancien <span aria-hidden="true">&rarr;</span></a></li>
-  {{ end }}
-</ul>
-{{ end }}
+    <div class="col-md-6 col-xs-6 relative">
+      <p class="text-center text-pagination green"><strong>{{ .Site.Data.l10n.pagination.page }} {{ .Paginator.PageNumber}} / {{ .Site.Data.l10n.pagination.of }} {{.Paginator.TotalPages}}</strong></p>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <p class="text-center">
+    {{ if .Paginator.HasNext }}
+        <a class="link-btn" href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">{{ .Site.Data.l10n.pagination.older }} Ancien <span aria-hidden="true">&rarr;</span></a>
+      {{ else }}
+        <span class="span-btn disabled" aria-hidden="true">Ancien &rarr;</span>
+      {{ end }}
+    </p>
+      </div>
+    {{ end }}
+  </div>
 </nav>

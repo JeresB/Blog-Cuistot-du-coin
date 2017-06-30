@@ -27,7 +27,7 @@
 
   <div class="blog-footer">
     <ul>
-      <li class="published-date">Publié le {{ .Date.Format "2 January 2006" }}</li>
+      <li class="published-date">Publié le {{ .Date.Format "2" }} {{ index $.Site.Data.mois_data.mois .Date.Month }} {{ .Date.Format "2006" }}</li>
     </ul>
   </div>
 

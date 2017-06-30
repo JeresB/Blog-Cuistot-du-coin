@@ -22,7 +22,7 @@
     <div class="col-md-3">
       <div class="card">
         <div class="card-block">
-          <h4 class="card-title">{{ .Date.Format "January 2, 2006" }}</h4>
+          <h4 class="card-title">{{ .Date.Format "2" }} {{ index $.Site.Data.mois_data.mois .Date.Month }} {{ .Date.Format "2006" }}</h4>
           <p class="card-text">{{ .WordCount }} mots.</p>
           <hr>
           <p class="card-title">Categories :</p>

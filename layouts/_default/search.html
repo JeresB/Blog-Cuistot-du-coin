@@ -79,7 +79,7 @@
     function search(query) {
         return lunrIndex.search(query).map(function(result) {
                 return pagesIndex.filter(function(page) {
-                    return page.uri === result.ref;
+                    return page.ref === result.ref;
                 })[0];
             });
     }
@@ -98,7 +98,7 @@
         results.slice(0, 100).forEach(function(result) {
             var $result = $("<li>");
             $result.append($("<a>", {
-                href: result.uri,
+                href: result.ref,
                 text: "» " + result.title
             }));
             $results.append($result);

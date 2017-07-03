@@ -279,6 +279,7 @@ blockquote:hover {
 	margin: 48px auto;
 	width: 20rem;
 }
+
 @media screen and (min-width: 480px) {
 	.blog-container {
 		width: 28rem;

@@ -3,12 +3,13 @@ backend:
   name: github
   repo: JeresB/Blog-Cuistot-du-coin
   branch: master
+  base_url: http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/public/
 
 # Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
 publish_mode: editorial_workflow
 
 # Save image uploads to /img/uploads - https://gohugo.io/themes/creation/#static
-media_folder: "static/imgages"
+media_folder: "static/images"
 public_folder: "/public"
 
 # Collections

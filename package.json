@@ -1,0 +1,15 @@
+{
+	"name": "Blog-Cuistot-du-coin",
+	"version": "1.0.0",
+	"description": "Blog contenant des articles liés à la start-up Cuistot du coin : http://www.cuistotducoin.com",
+	"main": "layout/index.html",
+	"repository": "https://github.com/JeresB/Blog-Cuistot-du-coin",
+	"author": "JeresB <boiselet.jeremy@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"index": "hugo-lunr"
+	},
+	"dependencies": {
+		"hugo-lunr": "^0.0.4"
+	}
+}

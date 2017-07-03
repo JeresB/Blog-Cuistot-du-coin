@@ -1,119 +1,127 @@
 {{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+<div class="container main">
+  <div class="row">
+    <div class="col-md-9 mx-auto">
+      <h3>Rechercher un article :</h3>
+      <input id="search" type="text" id="searchbox" placeholder="Just start typing...">
 
-    {{ .Content }}
+      <h3>Résultats :</h3>
+        <div class="list-group" id="results"></div>
 
-    <h3>Search:</h3>
-    <input id="search" type="text" id="searchbox" placeholder="Just start typing...">
+          <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+          <script type="text/javascript" src="/js/lunr.js"></script>
+          <script type="text/javascript">
+            var lunrIndex, $results, pagesIndex;
 
-    <h3>Results:</h3>
-    <ul id="results"></ul>
+            function getQueryVariable(variable) {
+              var query = window.location.search.substring(1);
+              var vars = query.split('&');
 
-    <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="/js/lunr.js"></script>
-    <script type="text/javascript">
-    var lunrIndex, $results, pagesIndex;
+              for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
 
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split('&');
-
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split('=');
-
-            if (pair[0] === variable) {
-                return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+                if (pair[0] === variable) {
+                  return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+                }
+              }
             }
-        }
-    }
 
-    var searchTerm = getQueryVariable('query');
+            var searchTerm = getQueryVariable('query');
 
-    // Initialize lunrjs using our generated index file
-    function initLunr() {
-        // First retrieve the index file
-        $.getJSON("/public/index.json")
-            .done(function(index) {
+            // Initialize lunrjs using our generated index file
+            function initLunr() {
+              // First retrieve the index file
+              $.getJSON("/public/index.json")
+              .done(function(index) {
                 pagesIndex = index;
                 console.log("index:", pagesIndex);
                 lunrIndex = lunr(function() {
-                    this.field("title", { boost: 10 });
-                    this.field("categories", { boost: 5 });
-                    //this.field("content");
-                    this.ref("ref");
+                  this.field("title", { boost: 10 });
+                  this.field("categories", { boost: 5 });
+                  this.field("description");
+                  this.ref("ref");
 
-                    pagesIndex.forEach(function (page) {
-                        this.add(page)
-                    }, this)
+                  pagesIndex.forEach(function (page) {
+                    this.add(page)
+                  }, this)
                 });
-            })
-            .fail(function(jqxhr, textStatus, error) {
+              })
+              .fail(function(jqxhr, textStatus, error) {
                 var err = textStatus + ", " + error;
                 console.error("Error getting Hugo index flie:", err);
-            });
-    }
-
-    // Nothing crazy here, just hook up a listener on the input field
-    function initUI() {
-        $results = $("#results");
-        $("#search").keyup(function() {
-            $results.empty();
-
-            // Only trigger a search when 2 chars. at least have been provided
-            var query = $(this).val();
-            if (query.length < 2) {
-                return;
+              });
             }
 
-            var results = search(query);
+            // Nothing crazy here, just hook up a listener on the input field
+            function initUI() {
+              $results = $("#results");
+              $("#search").keyup(function() {
+                $results.empty();
 
-            renderResults(results);
-        });
-    }
+                // Only trigger a search when 2 chars. at least have been provided
+                var query = $(this).val();
+                if (query.length < 2) {
+                  return;
+                }
 
-    /**
-     * Trigger a search in lunr and transform the result
-     *
-     * @param  {String} query
-     * @return {Array}  results
-     */
-    function search(query) {
-        return lunrIndex.search(query).map(function(result) {
-                return pagesIndex.filter(function(page) {
+                var results = search(query);
+
+                renderResults(results);
+              });
+            }
+
+            /**
+             * Trigger a search in lunr and transform the result
+             *
+             * @param  {String} query
+             * @return {Array}  results
+             */
+              function search(query) {
+                return lunrIndex.search(query).map(function(result) {
+                  return pagesIndex.filter(function(page) {
                     return page.ref === result.ref;
-                })[0];
-            });
-    }
+                  })[0];
+                });
+              }
 
-    /**
-     * Display the 10 first results
-     *
-     * @param  {Array} results to display
-     */
-    function renderResults(results) {
-        if (!results.length) {
-            return;
-        }
+            /**
+             * Display the 10 first results
+             *
+             * @param  {Array} results to display
+             */
+              function renderResults(results) {
+                if (!results.length) {
+                  return;
+                }
 
-        // Only show the ten first results
-        results.slice(0, 100).forEach(function(result) {
-            var $result = $("<li>");
-            $result.append($("<a>", {
-                href: result.ref,
-                text: "» " + result.title
-            }));
-            $results.append($result);
-        });
-    }
+                results.forEach(function(result) {
+                  var $result = $("<span>");
+                  $result.append($("<a>", {
+                    class: "list-group-item",
+                    href: result.ref,
+                    text: "» " + result.title + "\n" + result.description
+                  }));
+                  $results.append($result);
+                });
+              }
 
-    // Let's get started
-    initLunr();
+              // Let's get started
+              initLunr();
 
-    $(document).ready(function() {
-        initUI();
-    });
-    </script>
-    {{ range .Data.Pages }}
-      {{ .Render "blog-card" }}
-    {{ end}}
+              $(document).ready(function() {
+                initUI();
+              });
+          </script>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-md-3">
+      {{ partial "facebook.html" . }}
+    </div>
+  </div>
+</div>
 {{ partial "footer.copyright.html" . }}
-{{ partial "footer.html" . }}
+</body>
+</html>

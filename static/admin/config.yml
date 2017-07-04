@@ -3,7 +3,6 @@ backend:
   name: github
   repo: JeresB/Blog-Cuistot-du-coin
   branch: master
-  base_url: http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/admin/
 
 # Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
 publish_mode: editorial_workflow

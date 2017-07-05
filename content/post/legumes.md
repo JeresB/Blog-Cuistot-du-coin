@@ -2,7 +2,8 @@
 title: "Legumes"
 date: 2017-06-27T17:37:43+02:00
 description: "Des bons légumes !"
-categories: ["categories2"]
+categories:
+  - "categories2"
 image: "crepe.jpg"
 ---
 

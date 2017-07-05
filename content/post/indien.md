@@ -2,7 +2,8 @@
 title: "Indien"
 date: 2017-06-27T16:59:23+02:00
 description: "Cuisine Indienne !"
-categories: ["categories4"]
+categories:
+  - "categories4"
 ---
 
 Lorem ipsum dolor sit amet.

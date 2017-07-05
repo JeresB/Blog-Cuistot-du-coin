@@ -1,9 +1,11 @@
-+++
-title = "Another Hugo Post"
-description = "Nothing special, but one post is boring."
-date = "2014-09-02"
-categories = [ "example", "configuration" ]
-+++
+---
+title: "Another Hugo Post"
+description: "Nothing special, but one post is boring."
+date: "2014-09-02"
+categories:
+  - "example"
+  - "configuration"
+---
 
 TOML, YAML, JSON --- Oh my!
 -------------------------

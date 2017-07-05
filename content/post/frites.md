@@ -2,7 +2,8 @@
 title: "Frites"
 date: 2017-06-27T17:37:35+02:00
 description: "Des frites faites maison !"
-categories: ["categories4"]
+categories:
+  - "categories4"
 ---
 
 Lorem ipsum dolor sit amet.

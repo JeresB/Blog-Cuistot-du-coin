@@ -2,7 +2,8 @@
 title: "Sauce"
 date: 2017-06-27T16:59:31+02:00
 description: "Pour préparer une bonne sauce !"
-categories: ["categories4"]
+categories:
+  - "categories4"
 ---
 
 Lorem ipsum dolor sit amet.

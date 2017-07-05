@@ -1,5 +1,0 @@
-baseURL: "http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/"
-languageCode: "fr"
-title: "Cuistot du coin"
-canonifyURLs: true
-Paginate: 8

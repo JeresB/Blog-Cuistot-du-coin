@@ -2,7 +2,8 @@
 title: "Fruits"
 date: 2017-06-27T17:37:49+02:00
 description: "Fruits de mer !"
-categories: ["categories5"]
+categories:
+  - "categories5"
 ---
 
 Lorem ipsum dolor sit amet.

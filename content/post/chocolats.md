@@ -2,7 +2,8 @@
 title: "Chocolats"
 date: 2017-08-27T17:37:55+02:00
 description: "Du chocolat fait maison !"
-categories: ["categories1"]
+categories:
+  - "categories1"
 image: "crepe.jpg"
 ---
 

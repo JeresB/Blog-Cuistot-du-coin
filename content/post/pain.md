@@ -2,7 +2,8 @@
 title: "Pain"
 date: 2017-06-27T16:59:36+02:00
 description: "Un bon pain !"
-categories: ["categories3"]
+categories:
+  - "categories3"
 ---
 
 Lorem ipsum dolor sit amet.

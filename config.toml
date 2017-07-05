@@ -1,8 +1,0 @@
-baseURL = "/"
-languageCode = "fr"
-title = "Cuistot du coin"
-canonifyURLs = true
-Paginate = 8
-
-[indexes]
-  category = "categories"

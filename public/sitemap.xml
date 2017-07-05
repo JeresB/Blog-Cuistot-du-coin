@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/chocolats/</loc>
+    <lastmod>2017-08-27T17:37:55+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/bonbon/</loc>
+    <lastmod>2017-07-27T17:38:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/fruits/</loc>
+    <lastmod>2017-06-27T17:37:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/legumes/</loc>
+    <lastmod>2017-06-27T17:37:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/frites/</loc>
+    <lastmod>2017-06-27T17:37:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/pain/</loc>
+    <lastmod>2017-06-27T16:59:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/sauce/</loc>
+    <lastmod>2017-06-27T16:59:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/indien/</loc>
+    <lastmod>2017-06-27T16:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/index.json</loc>
+    <lastmod>2017-03-28T00:02:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/crepe/</loc>
+    <lastmod>2017-01-27T16:59:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/another-post/</loc>
+    <lastmod>2014-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/hello-hugo/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories1/</loc>
+    <lastmod>2017-08-27T17:37:55+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories2/</loc>
+    <lastmod>2017-06-27T17:37:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories3/</loc>
+    <lastmod>2017-06-27T16:59:36+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories4/</loc>
+    <lastmod>2017-06-27T17:37:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories5/</loc>
+    <lastmod>2017-06-27T17:37:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/configuration/</loc>
+    <lastmod>2014-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/</loc>
+    <lastmod>2017-08-27T17:37:55+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/example/</loc>
+    <lastmod>2014-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/hello/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/</loc>
+    <lastmod>2017-08-27T17:37:55+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/search/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/test/</loc>
+  </url>
+  
+</urlset>

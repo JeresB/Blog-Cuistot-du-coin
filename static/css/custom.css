@@ -128,11 +128,13 @@ hr {
 }
 
 .social {
+	color: #2aba66;
 	margin: 10px;
 }
 .social:hover {
 	color: #2aba66;
-	animation: 1s greenTextShadow ease-out;
+	text-shadow: 1px 1px #25a558;
+	animation: 1s all ease-out;
 }
 
 .link-btn {
@@ -466,4 +468,18 @@ blockquote:hover {
 .icon-star:hover,
 .icon-bubble:hover {
 	fill: #ff4d4d;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #2b2b2b;
+}
+
+.footer-copyright {
+	margin: 0;
+	padding: 3%;
+	color: white;
+	background-color: #222222;
 }

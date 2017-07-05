@@ -1,0 +1,34 @@
+<style>
+.{{ .Title }} {
+	background: url("../../images/{{ index .Params "image" }}");
+	background-size: cover;
+	border-radius: 5px 5px 0 0;
+	height: 15rem;
+	box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+}
+</style>
+
+<div class="blog-container">
+
+  <div class="blog-header">
+    <div class="{{ .Title }}">
+    </div>
+  </div>
+
+  <div class="blog-body">
+    <div class="blog-title">
+      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    </div>
+    <div class="blog-summary">
+      <p>{{ .Description }}</p>
+      <p>{{ .Summary }}</p>
+    </div>
+  </div>
+
+  <div class="blog-footer">
+    <ul>
+      <li class="published-date">Publié le {{ .Date.Format "2" }} {{ index $.Site.Data.mois_data.mois .Date.Month }} {{ .Date.Format "2006" }}</li>
+    </ul>
+  </div>
+
+</div>

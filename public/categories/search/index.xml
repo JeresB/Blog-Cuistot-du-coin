@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Search on Cuistot du coin</title>
-    <link>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/search/</link>
-    <description>Recent content in Search on Cuistot du coin</description>
+    <title>Search on Yoyodyne Widget Blogging</title>
+    <link>/categories/search/</link>
+    <description>Recent content in Search on Yoyodyne Widget Blogging</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
     
-	<atom:link href="http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/search/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/search/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Search Results</title>
-      <link>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/search/</link>
+      <link>/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/search/</guid>
+      <guid>/search/</guid>
       <description></description>
     </item>
     

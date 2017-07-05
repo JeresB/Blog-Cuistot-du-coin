@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Configuration on Cuistot du coin</title>
-    <link>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/configuration/</link>
-    <description>Recent content in Configuration on Cuistot du coin</description>
+    <title>Configuration on Yoyodyne Widget Blogging</title>
+    <link>/categories/configuration/</link>
+    <description>Recent content in Configuration on Yoyodyne Widget Blogging</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
     <lastBuildDate>Tue, 02 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Another Hugo Post</title>
-      <link>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/another-post/</link>
+      <link>/post/another-post/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/another-post/</guid>
+      <guid>/post/another-post/</guid>
       <description>&lt;h2 id=&#34;toml-yaml-json-oh-my&#34;&gt;TOML, YAML, JSON &amp;mdash; Oh my!&lt;/h2&gt;
 
 &lt;p&gt;One of the nifty Hugo features we should cover: flexible configuration and front matter formats! This entry has front

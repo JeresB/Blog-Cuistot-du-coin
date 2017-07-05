@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories5 on Cuistot du coin</title>
-    <link>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories5/</link>
-    <description>Recent content in Categories5 on Cuistot du coin</description>
+    <title>Categories5 on Yoyodyne Widget Blogging</title>
+    <link>/categories/categories5/</link>
+    <description>Recent content in Categories5 on Yoyodyne Widget Blogging</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
     <lastBuildDate>Tue, 27 Jun 2017 17:37:49 +0200</lastBuildDate>
     
-	<atom:link href="http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/categories/categories5/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/categories5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fruits</title>
-      <link>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/fruits/</link>
+      <link>/post/fruits/</link>
       <pubDate>Tue, 27 Jun 2017 17:37:49 +0200</pubDate>
       
-      <guid>http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/post/fruits/</guid>
+      <guid>/post/fruits/</guid>
       <description>&lt;h2 id=&#34;lorem-ipsum-dolor-sit-amet&#34;&gt;Lorem ipsum dolor sit amet.&lt;/h2&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse felis odio, hendrerit eget dui quis, venenatis condimentum mauris. Curabitur tincidunt nisl vitae dolor porta maximus. Ut id dui convallis quam consequat hendrerit. Curabitur luctus elit quis tristique elementum. Ut euismod in dolor sit amet sodales. Curabitur pharetra mi purus, sed.&lt;/p&gt;

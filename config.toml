@@ -1,4 +1,0 @@
-languageCode = "en-us"
-title = "Android TV News Shop"
-baseURL = "http://localhost:1313"
-SectionPagesMenu = "main"

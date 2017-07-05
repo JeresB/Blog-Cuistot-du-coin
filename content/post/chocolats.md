@@ -1,10 +1,10 @@
 ---
-title: "Chocolats"
-date: 2017-08-27T17:37:55+02:00
-description: "Du chocolat fait maison !"
 categories:
-  - "categories1"
-image: "crepe.jpg"
+  - categories1
+date: 2017-08-27T15:37:55.000Z
+title: 'Chocolats :)'
+description: Du chocolat fait maison !
+image: crepe.jpg
 ---
 
 Lorem ipsum dolor sit amet.
@@ -19,3 +19,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sapien v
 Donec non est tellus. Integer lorem felis, porttitor non congue et, convallis ut erat. Aenean in tellus finibus, maximus purus a, bibendum lectus. Proin sed pharetra orci. Curabitur eu risus ut tortor rhoncus ullamcorper. Nam diam orci, aliquam sed mollis id, elementum sed libero. Integer ex dolor, porta et risus non, commodo porttitor tellus. In at laoreet tellus, sit amet congue sapien. Phasellus et sagittis ipsum.
 
 Nullam aliquet turpis justo, eget laoreet turpis dictum a. Duis iaculis libero mauris, et dictum leo feugiat sed. Curabitur gravida mi ipsum. Phasellus et imperdiet nulla, sed mollis odio. Nullam ornare convallis augue quis interdum. Nullam congue et urna sit amet venenatis. Suspendisse tellus orci, euismod ac volutpat vel, fermentum sed nisl. Phasellus malesuada elit semper mauris sodales, id pretium ex commodo. Duis mollis enim in risus feugiat, lobortis dictum ligula maximus. Etiam blandit lectus nec nisi volutpat semper. Donec id velit eu lorem rhoncus varius sit amet ut metus. Nullam interdum tortor non vestibulum malesuada. Nullam libero purus, elementum sit amet imperdiet vel, elementum ac dui. Vestibulum finibus lorem non lacus ultricies, ut malesuada est faucibus. Ut id nisi vitae elit euismod tincidunt in ac mi.
+

@@ -1,5 +1,6 @@
 ---
 baseURL: "/"
-title: "Yoyodyne Widget Blogging"
+title: "Cuistot du coin"
 paginate: 8
+canonifyURLs: true
 ---

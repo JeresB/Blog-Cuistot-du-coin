@@ -2,6 +2,7 @@
 layout: search
 title: Search Results
 permalink: /search/
-categories: ["Search"]
+categories:
+ - "Search"
 noToc: true
 ---

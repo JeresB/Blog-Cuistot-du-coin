@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories1 on Cuistot du coin</title>
-    <link>/categories/categories1/</link>
-    <description>Recent content in Categories1 on Cuistot du coin</description>
+    <title>Categorie1 on Cuistot du coin</title>
+    <link>/categories/categorie1/</link>
+    <description>Recent content in Categorie1 on Cuistot du coin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Aug 2017 17:37:55 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2017 17:38:00 +0200</lastBuildDate>
     
-	<atom:link href="/categories/categories1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/categorie1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Chocolats</title>
-      <link>/post/chocolats/</link>
-      <pubDate>Sun, 27 Aug 2017 17:37:55 +0200</pubDate>
+      <title>Bonbon</title>
+      <link>/post/bonbon/</link>
+      <pubDate>Thu, 27 Jul 2017 17:38:00 +0200</pubDate>
       
-      <guid>/post/chocolats/</guid>
+      <guid>/post/bonbon/</guid>
       <description>&lt;h2 id=&#34;lorem-ipsum-dolor-sit-amet&#34;&gt;Lorem ipsum dolor sit amet.&lt;/h2&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse felis odio, hendrerit eget dui quis, venenatis condimentum mauris. Curabitur tincidunt nisl vitae dolor porta maximus. Ut id dui convallis quam consequat hendrerit. Curabitur luctus elit quis tristique elementum. Ut euismod in dolor sit amet sodales. Curabitur pharetra mi purus, sed.&lt;/p&gt;

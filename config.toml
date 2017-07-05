@@ -1,4 +1,4 @@
-baseURL = "http://blogcuistotducoin.s3-website.eu-west-2.amazonaws.com/"
+baseURL = "/"
 languageCode = "fr"
 title = "Cuistot du coin"
 canonifyURLs = true
